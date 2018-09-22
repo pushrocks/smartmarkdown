@@ -1,6 +1,6 @@
 {
   "name": "@pushrocks/smartmarkdown",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "description": "do more with markdown files",
   "main": "dist/index.js",
