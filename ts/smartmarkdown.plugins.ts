@@ -1,2 +1,3 @@
-const removeme = {};
-export { removeme };
+import marked = require('marked');
+
+export { marked };
