@@ -16,6 +16,7 @@ export class SmartMarkdown {
       headingStyle: 'atx',
       codeBlockStyle: 'fenced'
     });
+    turndownInstance.use(plugins.turndownPluginGfm.gfm);
     return turndownInstance.turndown(htmlString);
   }
 }
